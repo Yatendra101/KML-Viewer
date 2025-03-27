@@ -126,7 +126,6 @@ const KMLViewer = () => {
 
   return (
     <div>
-      <h2>KML File Viewer</h2>
       <input type="file" accept=".kml" onChange={handleFileUpload} />
       <button onClick={() => { setShowSummary(true); setShowDetailed(false); }}>Summary</button>
       <button onClick={() => { setShowSummary(false); setShowDetailed(true); }}>Detailed</button>
